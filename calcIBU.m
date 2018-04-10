@@ -1,0 +1,4 @@
+function [IBU] = calcIBU(HW1,HW2,HW3,AA1,AA2,AA3,U1,U2,U3,V)
+IBU=((HW1*AA1*U1)+(HW2*AA2*U2)+(HW3*AA3*U3))*7489/V;
+end
+
