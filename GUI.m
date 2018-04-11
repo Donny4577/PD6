@@ -684,6 +684,7 @@ hopsType2 = get(handles.lsbHops2, 'value');
 hopsType3 = get(handles.lsbHops3, 'value');
 
 %convert grain index values into GUp and n via chart
+%%!!!!!!!!!!!!!!!!!!!!!INSTER LOVIBONDSSSS
 [GUp1,n1] = getGUpn(grainType1);
 [GUp2,n2] = getGUpn(grainType2);
 [GUp3,n3] = getGUpn(grainType3);
